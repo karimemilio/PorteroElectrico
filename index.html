@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/javascript" src="aplicacion.js"></script>
+    <title>Portero eléctrico</title>
+  </head>
+  <body>
+    <h1 id="titulo">Portero eléctrico</h1>
+    <div id="portero">
+      <div id="visores">
+        <input id="piso" value="Piso" size="1" readonly />
+        <input id="depto" value="Depto" size="1" readonly />
+      </div>
+      <div id="botones">
+        <button value="1" onclick="push(1)">1</button
+        ><button onclick="push(2)">2</button
+        ><button onclick="push(3)">3</button>
+
+        <button onclick="push(4)">4</button><button onclick="push(5)">5</button
+        ><button onclick="push(6)">6</button>
+
+        <button onclick="push(7)">7</button><button onclick="push(8)">8</button
+        ><button onclick="push(9)">9</button>
+
+        <button onclick="push(0)">0</button
+        ><button id="call" onclick="call()">📞</button
+        ><button onclick="borrar()">❌</button>
+      </div>
+      <div id="mensaje">
+        <input
+          id="visor"
+          type="text"
+          placeholder="Bienvenido/a. Ingrese un número de piso"
+          size="45"
+          readonly
+        />
+      </div>
+    </div>
+    <div id="pie">
+      <p id="txt">Karim Emilio - 2021</p>
+    </div>
+  </body>
+</html>

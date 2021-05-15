@@ -1,0 +1,74 @@
+* {
+  background-color: #201c1c;
+}
+
+#titulo {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 58px;
+  text-align: center;
+}
+
+button {
+  background-color: #f8f8f8;
+  font-size: 24px;
+  border-radius: 12px;
+  width: 100px;
+}
+
+#piso {
+  border-color: green;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#botones {
+  display: grid;
+  grid-column-gap: 25px;
+  grid-template-columns: auto auto auto;
+  padding: 15px;
+  grid-gap: 20px 20px;
+  background-color: #201c1c;
+}
+
+input {
+  border-radius: 5px;
+  border-color: rgb(255, 255, 255);
+  color: white;
+  font-size: 20px;
+  background-color: #201c1c;
+  text-align: center;
+}
+
+#visores {
+  display: grid;
+  /* grid-column-gap: 25px; */
+  grid-template-columns: auto auto;
+  padding: 15px;
+  grid-gap: 10px 20px;
+  background-color: #201c1c;
+}
+
+#portero {
+  border-radius: 12px;
+  background-color: #201c1c;
+  color: #201c1c;
+  margin: auto;
+  padding: 10px;
+  display: table;
+  border-style: dashed;
+  border-color: white;
+}
+
+#pie {
+  float: right;
+}
+
+#txt {
+  position: relative;
+  top: 25px;
+  padding: 60px 30px;
+  color: #aaa7a7;
+}
