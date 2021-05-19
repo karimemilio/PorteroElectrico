@@ -1,6 +1,25 @@
 * {
   background-color: #201c1c;
 }
+*.light-mode,
+#visores.light-mode,
+#portero.light-mode {
+  background: rgb(255, 255, 255);
+}
+#botones.light-mode {
+  background-color: #ffffff;
+}
+button.light-mode,
+#portero.light-mode,
+input.light-mode {
+  background-color: #000000;
+  color: #f8f8f8;
+}
+#titulo.light-mode,
+#txt.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
 
 #titulo {
   color: #ffffff;
@@ -44,7 +63,6 @@ input {
 
 #visores {
   display: grid;
-  /* grid-column-gap: 25px; */
   grid-template-columns: auto auto;
   padding: 15px;
   grid-gap: 10px 20px;
@@ -63,12 +81,43 @@ input {
 }
 
 #pie {
-  float: right;
+  padding: 25px;
+  text-align: center;
 }
 
-#txt {
-  position: relative;
-  top: 25px;
-  padding: 60px 30px;
-  color: #aaa7a7;
+#colormode,
+#admin {
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+}
+
+.loginform {
+  padding: 16px;
+  visibility: hidden;
+}
+
+.loginform.on {
+  visibility: visible;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.loginform.on input {
+  border-radius: 10px;
+}
+.loginform.on label {
+  font-size: 20px;
+}
+.loginform.on button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
 }
